@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 
 
 router.get('/', (req, res) => {
-    res.render('index');
+    res.render('maintenance');
 });
 
 router.get('/contact', (req, res) => {
@@ -39,26 +39,25 @@ router.post('/contact', async (req, res) => {
         message: req.body.message
     });
 
-    console.log(data);
 
 
-    const transporter = nodemailer.createTransport({
-        service: "gmail",
+    // const transporter = nodemailer.createTransport({
+    //     service: "gmail",
 
-        auth: {
-            user: "me@gmail.com",
-            pass: 8686,
-        },
-    });
+    //     auth: {
+    //         user: "me@gmail.com",
+    //         pass: 8686,
+    //     },
+    // });
 
 
-    var message = {
-        from: "sender@server.com",
-        to: "receiver@sender.com",
-        subject: "Message title",
-        text: "Plaintext version of the message",
-        html: "<p>HTML version of the message</p>",
-    };
+    // var message = {
+    //     from: "sender@server.com",
+    //     to: "receiver@sender.com",
+    //     subject: "Message title",
+    //     text: "Plaintext version of the message",
+    //     html: "<p>HTML version of the message</p>",
+    // };
     data.save();
 
 })
