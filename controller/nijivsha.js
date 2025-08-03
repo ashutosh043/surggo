@@ -1,31 +1,150 @@
 const express = require('express');
 const router = express.Router();
-const surgeonModel = require('../model/contact');
-const nodemailer = require('nodemailer');
 
-
-router.get('/', (req, res) => {
-    res.render('maintenance');
+router.get('/', (req,res)=>{
+    res.render('index');
 });
 
-router.get('/contact', (req, res) => {
+router.get('/contact', (req,res)=>{
     res.render('contact');
 });
 
 
-router.get('/about-us', (req, res) => {
+router.get('/about-us', (req,res)=>{
     res.render('about-us');
 });
 
 
-router.get('/urine-container', (req, res) => {
+router.get('/urine-container', (req,res)=>{
     res.render('urine-container');
 });
 
-router.get('/edta-tube', (req, res) => {
+router.get('/edta-tube', (req,res)=>{
     res.render('edta-tube');
 });
 
+router.get('/routine-container', (req,res)=>{
+    res.render('routine-container');
+});
+
+router.get('/speciman-container', (req,res)=>{
+    res.render('speciman-container');
+});
+
+router.get('/stool-container', (req,res)=>{
+    res.render('stool-container');
+});
+
+
+router.get('/ria-vial', (req,res)=>{
+    res.render('ria-vial');
+});
+
+router.get('/multi-purpose-vials', (req,res)=>{
+    res.render('multi-purpose-vials');
+});
+
+router.get('/centrifuge-vial', (req,res)=>{
+    res.render('centrifuge-vial');
+});
+
+router.get('/micro-centrifuge-cup', (req,res)=>{
+    res.render('micro-centrifuge-cup');
+});
+
+router.get('/sodium-flouride-tube', (req,res)=>{
+    res.render('sodium-flouride-tube');
+});
+
+
+router.get('/clot-activator-tube', (req,res)=>{
+    res.render('clot-activator-tube');
+});
+
+router.get('/sodium-citrate', (req,res)=>{
+    res.render('sodium-citrate');
+});
+
+router.get('/esr', (req,res)=>{
+    res.render('esr');
+});
+
+router.get('/sst', (req,res)=>{
+    res.render('sst');
+});
+
+router.get('/lithium-heparin', (req,res)=>{
+    res.render('lithium-heparin');
+});
+
+router.get('/micro-pipette-tip', (req,res)=>{
+    res.render('micro-pipette-tip');
+});
+
+router.get('/macro-pipette-tip', (req,res)=>{
+    res.render('macro-pipette-tip');
+});
+
+router.get('/pasture-pipette', (req,res)=>{
+    res.render('pasture-pipette');
+});
+
+router.get('/surgical-mask', (req,res)=>{
+    res.render('surgical-mask');
+});
+
+router.get('/head-cap', (req,res)=>{
+    res.render('head-cap');
+});
+
+router.get('/shoe-cover', (req,res)=>{
+    res.render('shoe-cover');
+});
+
+router.get('/gown', (req,res)=>{
+    res.render('gown');
+});
+
+
+router.get('/vaccum-tube', (req,res)=>{
+    res.render('vaccum-tube');
+});
+
+router.get('/non-vaccum', (req,res)=>{
+    res.render('non-vaccum');
+});
+
+router.get('/sodium-heparin-tube', (req,res)=>{
+    res.render('sodium-heparin-tube');
+});
+
+router.get('/stip-bandage', (req,res)=>{
+    res.render('stip-bandage');
+});
+
+router.get('/round-bandage', (req,res)=>{
+    res.render('round-bandage');
+});
+
+router.get('/micro-pore-tape', (req,res)=>{
+    res.render('micro-pore-tape');
+});
+
+router.get('/hypo-allergic-tape', (req,res)=>{
+    res.render('hypo-allergic-tape');
+});
+
+router.get('/alcohol-swab', (req,res)=>{
+    res.render('alcohol-swab');
+});
+
+router.get('/hand-sanitizer', (req,res)=>{
+    res.render('hand-sanitizer');
+});
+
+router.get('/cotton-rolls', (req,res)=>{
+    res.render('cotton-rolls');
+});
 
 
 
@@ -61,5 +180,4 @@ router.post('/contact', async (req, res) => {
     data.save();
 
 })
-
-module.exports = router;
+module.exports= router;

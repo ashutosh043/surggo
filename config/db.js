@@ -1,16 +1,17 @@
+require("dotenv").config();
 const mongoose = require('mongoose');
+const dbUrl = process.env.DB;
+const kodoDb = async function (){
+  try{
+   const connectDb =  await mongoose.connect(dbUrl);
+   
+    
+     console.log("Database connected sucessfully");
 
-const DatabaseConnection = function (){
-          try{
-
-            mongoose.connect('mongodb://localhost:27017/surgego');
-            console.log("Database is connected");
-
-          }
-          catch(error){
-              console.log(error);
-          }
+  }
+  catch(error){
+    console.log(error + 'Error Showing')
+  }
 }
 
-
-DatabaseConnection();
+kodoDb();
