@@ -134,8 +134,8 @@ router.get('/round-bandage', (req,res)=>{
     res.render('round-bandage');
 });
 
-router.get('/micro-pore-tape', (req,res)=>{
-    res.render('micro-pore-tape');
+router.get('/micro-pore-paper-tape', (req,res)=>{
+    res.render('micro-pore-paper-tape');
 });
 
 router.get('/hypo-allergic-tape', (req,res)=>{
