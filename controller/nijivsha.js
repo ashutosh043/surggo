@@ -44,8 +44,8 @@ router.get('/multi-purpose-vials', (req,res)=>{
     res.render('multi-purpose-vials');
 });
 
-router.get('/centrifuge-vial', (req,res)=>{
-    res.render('centrifuge-vial');
+router.get('/conical-centrifuge-tube', (req,res)=>{
+    res.render('conical-centrifuge-tube');
 });
 
 router.get('/micro-centrifuge-cup', (req,res)=>{
@@ -65,12 +65,12 @@ router.get('/sodium-citrate', (req,res)=>{
     res.render('sodium-citrate');
 });
 
-router.get('/esr', (req,res)=>{
-    res.render('esr');
+router.get('/esr-tube', (req,res)=>{
+    res.render('esr-tube');
 });
 
-router.get('/sst', (req,res)=>{
-    res.render('sst');
+router.get('/sst-tube', (req,res)=>{
+    res.render('sst-tube');
 });
 
 router.get('/lithium-heparin', (req,res)=>{
@@ -103,6 +103,14 @@ router.get('/shoe-cover', (req,res)=>{
 
 router.get('/gown', (req,res)=>{
     res.render('gown');
+});
+
+router.get('/latex-glove', (req,res)=>{
+    res.render('latex-glove');
+});
+
+router.get('/nitrile-glove', (req,res)=>{
+    res.render('nitrile-glove');
 });
 
 
@@ -145,6 +153,15 @@ router.get('/hand-sanitizer', (req,res)=>{
 router.get('/cotton-rolls', (req,res)=>{
     res.render('cotton-rolls');
 });
+
+router.get('/sputum-container', (req,res)=>{
+    res.render('sputum-container');
+});
+
+router.get('/self-standing-centrifuge-tube', (req,res)=>{
+    res.render('self-standing-centrifuge-tube');
+});
+
 
 
 
