@@ -19,9 +19,14 @@ router.get('/urine-container', (req,res)=>{
     res.render('urine-container');
 });
 
-router.get('/edta-tube', (req,res)=>{
-    res.render('edta-tube');
+router.get('/vac-edta-tube', (req,res)=>{
+    res.render('vac-edta-tube');
 });
+
+router.get('/non-edta-tube', (req,res)=>{
+    res.render('non-edta-tube');
+});
+
 
 router.get('/routine-container', (req,res)=>{
     res.render('routine-container');
@@ -52,29 +57,48 @@ router.get('/micro-centrifuge-cup', (req,res)=>{
     res.render('micro-centrifuge-cup');
 });
 
-router.get('/sodium-flouride-tube', (req,res)=>{
-    res.render('sodium-flouride-tube');
+router.get('/vac-sodium-flouride-tube', (req,res)=>{
+    res.render('vac-sodium-flouride-tube');
+});
+
+router.get('/non-sodium-flouride-tube', (req,res)=>{
+    res.render('non-sodium-flouride-tube');
 });
 
 
-router.get('/clot-activator-tube', (req,res)=>{
-    res.render('clot-activator-tube');
+router.get('/vac-clot-activator-tube', (req,res)=>{
+    res.render('vac-clot-activator-tube');
 });
 
-router.get('/sodium-citrate', (req,res)=>{
-    res.render('sodium-citrate');
+router.get('/non-clot-activator-tube', (req,res)=>{
+    res.render('non-clot-activator-tube');
 });
 
-router.get('/esr-tube', (req,res)=>{
-    res.render('esr-tube');
+router.get('/vac-sodium-citrate', (req,res)=>{
+    res.render('vac-sodium-citrate');
 });
 
-router.get('/sst-tube', (req,res)=>{
-    res.render('sst-tube');
+router.get('/non-sodium-citrate', (req,res)=>{
+    res.render('non-sodium-citrate');
 });
 
-router.get('/lithium-heparin', (req,res)=>{
-    res.render('lithium-heparin');
+router.get('/vac-esr-tube', (req,res)=>{
+    res.render('vac-esr-tube');
+});
+
+router.get('/non-esr-tube', (req,res)=>{
+    res.render('non-esr-tube');
+});
+
+router.get('/vac-sst-tube', (req,res)=>{
+    res.render('vac-sst-tube');
+});
+
+router.get('/non-sst-tube', (req,res)=>{
+    res.render('non-sst-tube');
+});
+router.get('/vac-lithium-heparin', (req,res)=>{
+    res.render('vac-lithium-heparin');
 });
 
 router.get('/micro-pipette-tip', (req,res)=>{
@@ -122,12 +146,12 @@ router.get('/non-vaccum', (req,res)=>{
     res.render('non-vaccum');
 });
 
-router.get('/sodium-heparin-tube', (req,res)=>{
-    res.render('sodium-heparin-tube');
+router.get('/vac-sodium-heparin-tube', (req,res)=>{
+    res.render('vac-sodium-heparin-tube');
 });
 
-router.get('/stip-bandage', (req,res)=>{
-    res.render('stip-bandage');
+router.get('/strip-bandage', (req,res)=>{
+    res.render('strip-bandage');
 });
 
 router.get('/round-bandage', (req,res)=>{
