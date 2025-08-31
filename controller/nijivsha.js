@@ -186,6 +186,10 @@ router.get('/self-standing-centrifuge-tube', (req,res)=>{
     res.render('self-standing-centrifuge-tube');
 });
 
+router.get('/strip-bandange', (req,res)=>{
+    res.render('strip-bandange');
+});
+
 
 
 
