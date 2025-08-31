@@ -8555,6 +8555,7 @@ label {
   font-weight: 500;
   font-size: 18px;
   z-index: 1;
+  text-align: left;
 }
 
 .footer-widget-title::before {
@@ -8568,7 +8569,6 @@ label {
   left: 0;
   z-index: -1;
   right: 0;
-    margin: auto;
 }
 
 .footer-widget-title::after {
@@ -8581,7 +8581,7 @@ label {
   bottom: 0;
   left: 14px;
   z-index: -1;
-  margin: auto;
+
     right: 0;
 }
 
@@ -8589,6 +8589,7 @@ label {
   display: flex;
   flex-direction: column;
   gap: .65rem;
+  text-align: left;
 }
 
 .footer-list li a {
@@ -8639,6 +8640,7 @@ label {
   color: var(--footer-text-color);
   font-size: 16px;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .footer-contact li a {
