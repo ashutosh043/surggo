@@ -9064,6 +9064,12 @@ label {
   width: 100%;
 }
 
+.whatspp {
+    position: fixed;
+    right: 50px;
+    bottom: 64px;
+}
+
 .home-2 .product-list-box{
   background: var(--theme-color) !;
 }
