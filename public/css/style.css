@@ -9070,6 +9070,10 @@ label {
     bottom: 64px;
 }
 
+.bct-img{
+  width: 40px !important;
+}
+
 .home-2 .product-list-box{
   background: var(--theme-color) !;
 }
