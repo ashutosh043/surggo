@@ -1,214 +1,76 @@
-<!-- header area -->
-<header class="header">
+<header>
+  <div class="wrap topbar">
+    <a href="#top" class="logo">CLARO<span>.</span></a>
+    <nav class="mainnav" id="mainNav">
+      <ul>
+        <li >
+          <a href="/" class="nav-link">
+            Home
+            
+          </a>
 
-    <!-- header top -->
-    <div class="header-top">
-        <div class="container">
-            <div class="header-top-wrap">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-                        <div class="header-top-left">
-                            <ul class="header-top-list">
-                                <li><a href="mailto:info@surggo.com"><i class="far fa-envelopes"></i>
-                                        info@surggo.com</a></li>
-                                <li><a href="tel:+91-8929939299"><i class="far fa-headset"></i> +91 89299-39299</a></li>
-                                <!-- <li class="help"><a href="#"><i class="far fa-comment-question"></i> Need Help?</a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-                        <div class="header-top-right">
-                            <ul class="header-top-list">
+        </li>
+        <li><a href="/about-us">About</a></li>
+        <li class="nav-item has-dropdown"><a href="#how">Product
+          <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none">
+              <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+        </a>
 
-                                <li>
-                                    <div class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            <i class="far fa-globe-americas"></i> EN
-                                        </a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#">EN</a>
-                                            <a class="dropdown-item" href="#">FR</a>
-                                            <a class="dropdown-item" href="#">DE</a>
-                                            <a class="dropdown-item" href="#">RU</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- <li class="social">
-                                    <div class="header-top-social">
-                                        <span>Follow Us: </span>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-x-twitter"></i></a>
-                                        <a
-                                            href="https://www.instagram.com/surggo_official?igsh=M2w1cnpzcDQ0MjZy&utm_source=qr"><i
-                                                class="fab fa-instagram"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    </div>
-                                </li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+          <div class="dropdown-panel">
+            <div class="dropdown-links">
+              <a href="#shop" class="dropdown-link">
+                <span class="dd-title">Standard Cleaner</span>
+                <!-- <span class="dd-sub">Daily glasses &amp; sunglasses</span> -->
+              </a>
+              <a href="#shop" class="dropdown-link">
+                <span class="dd-title">Premium Cleaner</span>
+                <!-- <span class="dd-sub">Coated lenses, DSLR &amp; mirrorless</span> -->
+              </a>
+              <a href="#shop" class="dropdown-link">
+                <span class="dd-title">Gel cleaner</span>
+                <!-- <span class="dd-sub">Phones, tablets, monitors</span> -->
+              </a>
+              <a href="#shop" class="dropdown-link">
+                <span class="dd-title">Camera Lens Cleaner</span>
+                <!-- <span class="dd-sub">30ml minis and 250ml top-ups</span> -->
+              </a>
             </div>
-        </div>
-    </div>
-    <!-- header top end -->
-
-
-    <!-- navbar -->
-    <div class="main-navigation">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container position-relative">
-                <a class="navbar-brand" href="/">
-                    <img src="images/logo/surggo.png" alt="logo">
-                </a>
-                <div class="mobile-menu-right">
-                    <!-- <div class="mobile-menu-btn">
-                            <a href="#" class="nav-right-link search-box-outer"><i class="far fa-search"></i></a>
-                            <a href="wishlist.html" class="nav-right-link"><i class="far fa-heart"></i><span>2</span></a>
-                            <a href="shop-cart.html" class="nav-right-link"><i class="far fa-shopping-bag"></i><span>5</span></a>
-                        </div> -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                        aria-label="Toggle navigation">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <a href="/" class="offcanvas-brand" id="offcanvasNavbarLabel">
-                            <img src="images/logo/surggo.png" alt="">
-                        </a>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link active" href="/">Home</a>
-
-                            </li>
-                            <li class=" nav-item"><a class="nav-link" href="/about-us">About Us</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categeory</a>
-                                <ul class="dropdown-menu fade-down">
-
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Blood Collection Tube</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a class="dropdown-item"
-                                                    href="/vaccum-tube">Vaccum tube</a>
-
-
-                                            </li>
-                                            <li><a class="dropdown-item" href="/non-vaccum">Non Vaccum </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle"
-                                            href="javascript:void(0);">Containers</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="urine-container">Urine Containers</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="/speciman-container">Speciman
-                                                    Container</a>
-                                            </li>
-
-                                            <li><a class="dropdown-item" href="/stool-container">Stool Container</a>
-                                            </li>
-
-                                            <li><a class="dropdown-item" href="/routine-container">Routine Container</a>
-                                            </li>
-
-                                            <li><a class="dropdown-item" href="/sputum-container">Sputum Container</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="javascript:void(0);">Vial</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="/ria-vial">Ria Vial</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="/multi-purpose-vials">Multi Purpose
-                                                    Vials</a>
-                                            </li>
-
-                                            <li><a class="dropdown-item" href="/conical-centrifuge-tube">Conical
-                                                    Centrifuge Tube</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="/self-standing-centrifuge-tube">Self
-                                                    Stainding Centrifuge Tube</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="/micro-centrifuge-cup">Micro Centrifuge
-                                                    Cup</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="javascript:void(0);">Pipette</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="/micro-pipette-tip">Micro Pipette
-                                                    Tips</a></li>
-                                            <li><a class="dropdown-item" href="/macro-pipette-tip">Macro Pipette
-                                                    Tips</a></li>
-                                            <li><a class="dropdown-item" href="/pasture-pipette"> Pasture Pipette</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle"
-                                            href="javascript:void(0);">Disposable Surgical</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="/surgical-mask">Surgical Mask</a></li>
-                                            <li><a class="dropdown-item" href="/head-cap">Head Cap</a></li>
-
-                                            <li><a class="dropdown-item" href="/shoe-cover">Shoe Cover </a></li>
-                                            <li><a class="dropdown-item" href="/gown"> Gown </a></li>
-                                            <li><a class="dropdown-item" href="/latex-glove">Latex Glove</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="/nitrile-glove">Nitrile Glove</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle"
-                                            href="javascript:void(0);">Bandages & Tapes</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="/round-bandage"> Round Bandage </a></li>
-                                            <li><a class="dropdown-item" href="/strip-bandage">Strip Bandage</a></li>
-                                            <li><a class="dropdown-item" href="/micro-pore-paper-tape">Micropore Paper
-                                                    Tape</a></li>
-                                            <li><a class="dropdown-item" href="/hypo-allergic-tape">Hypoallergenic
-                                                    Tape</a></li>
-                                        </ul>
-
-
-
-                                    </li>
-                                    <li><a class="dropdown-item" href="/cotton-rolls">Cotton Rolls </a></li>
-                                    <li><a class="dropdown-item" href="/hand-sanitizer">Hand Sanitizer</a></li>
-                                    <li><a class="dropdown-item" href="/alcohol-swab">Alcohol Swab</a></li>
-                                </ul>
-
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="images/surggo-certificate.pdf"
-                                    target="_blank">Certificate</a></li>
-
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link" href="/blog" data-bs-toggle="dropdown">Blog</a>
-                            </li> -->
-                            <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
-                        </ul>
-
-                    </div>
-                </div>
+            <div class="dropdown-promo">
+              <div>
+                <span class="eyebrow">Subscribe &amp; Save</span>
+                <h5>20% off every auto-refill</h5>
+              </div>
+              <a href="#shop" class="btn btn-zing">Shop Refills</a>
             </div>
-
-        </nav>
+          </div>
+        </li>
+        <li><a href="/accessories">Accessories</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+          <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
+      <button class="icon-btn" aria-label="Cart" id="cartBtn">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none">
+          <path d="M6 6H21L19 15H8L6 6ZM6 6L5 3H2" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <circle cx="9" cy="20" r="1.4" fill="currentColor" />
+          <circle cx="18" cy="20" r="1.4" fill="currentColor" />
+        </svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="menu-toggle" aria-label="Menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
     </div>
-    <!-- navbar end -->
-
+  </div>
 </header>
-<!-- header area end -->

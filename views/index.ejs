@@ -9,1543 +9,319 @@
 <body class="home-2">
     <%- include('header') %>
 
-        <main class="main">
+      <main id="top">
 
-            <!-- hero section -->
-            <div class="hero-section hs-1">
-                <div class="hero-single" style="background-image: url(images/hero/bg.png);">
-                    <div class="container position-relative">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <div class="hero-content">
-                                    <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Trusted
-                                        Disposable Surgicals & Laboratory Consumable</h6>
-                                    <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
-                                        Our Promise: Quality, Safety & Care in Every Product.
-                                    </h1>
-                                    <p data-animation="fadeInLeft" data-delay=".75s">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Optical-Grade Formula</span>
+        <h1>Zero streaks.<br>Zero fog.<br><em>Every lens.</em></h1>
+        <p class="lede">CLARO is an alcohol-free, ammonia-free cleaning spray engineered for glasses, camera glass, and screens — safe on every anti-reflective coating, dry in seconds.</p>
+        <div class="hero-ctas">
+          <a href="#shop" class="btn btn-primary">Shop the Spray</a>
+          <a href="#wipe-test" class="btn btn-ghost">Try the Wipe Test ↓</a>
+        </div>
+        <div class="spec-strip">
+          <span><b>30 / 60 / 250</b> ml sizes</span>
+          <span>pH <b>7.0</b> neutral</span>
+          <span><b>AR-coating</b> safe</span>
+          <span><b>3 sec</b> dry time</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo-frame">
+          <img src="https://images.pexels.com/photos/7530721/pexels-photo-7530721.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="CLARO lens cleaning spray bottle, close up on reflective surface">
+        </div>
+        <div class="floating-badge">
+          <span class="big">10,400+</span>
+          bottles shipped to opticians &amp; photographers this year
+        </div>
+      </div>
+    </div>
+  </section>
 
-                                    </p>
+  <!-- TRUST STRIP -->
+  <div class="trust">
+    <div class="wrap trust-grid">
+      <div class="trust-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2L20 6V12C20 17 16.5 20.7 12 22C7.5 20.7 4 17 4 12V6L12 2Z" stroke="var(--zing)" stroke-width="1.6"/></svg>
+        Ammonia-free
+      </div>
+      <div class="trust-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 12L10 18L20 6" stroke="var(--zing)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Alcohol-free
+      </div>
+      <div class="trust-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="var(--zing)" stroke-width="1.6"/><path d="M9 12L11 14L15 10" stroke="var(--zing)" stroke-width="1.6"/></svg>
+        Safe on AR coatings
+      </div>
+      <div class="trust-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 12H21M12 3V21" stroke="var(--zing)" stroke-width="1.6" stroke-linecap="round"/></svg>
+        Anti-static finish
+      </div>
+      <div class="trust-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12L9 16L19 6" stroke="var(--zing)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        30-day guarantee
+      </div>
+    </div>
+  </div>
 
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="hero-right">
-                                    <div class="hero-img">
-                                        <img src="images/hero/hero-1.png" alt="">
-                                    </div>
-                                    <!-- <div class="hero-img-info">
-                                        <div class="icon">
-                                            <img src="images/icon/delivery.svg" alt="">
-                                        </div>
-                                        <h6>Delivery within 30 minutes</h6>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <!-- PRODUCT GRID -->
+  <section id="shop">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Bestselling bottles</h2>
+        <p>Every formula, every size — pick the bottle that matches how you clean.</p>
+      </div>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <div class="product-media">
+            <span class="product-tag">Bestseller</span>
+            <img src="https://images.pexels.com/photos/12997255/pexels-photo-12997255.jpeg?auto=compress&cs=tinysrgb&w=600" alt="CLARO Classic 60ml lens cleaning spray bottle">
+          </div>
+          <div class="product-body">
+            <h4>CLARO Classic — 60ml</h4>
+            <span class="product-meta">SKU CLR-060 · Everyday eyewear</span>
+            <div class="product-price">
+              <span class="price">$12.00</span>
+              <button class="add-btn" onclick="addToCart()">+</button>
             </div>
-            <!-- hero section end -->
+          </div>
+        </div>
 
-
-
-            <!-- category area -->
-            <div class="category-area pt-80 pb-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 wow fadeInDown" data-wow-delay=".25s">
-                            <div class="site-heading-inline">
-                                <h2 class="site-title">Top Category</h2>
-                                <!-- <a href="#">View More <i class="fas fa-angle-double-right"></i></a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-slider owl-carousel owl-theme wow fadeInUp" data-wow-delay=".25s">
-                        <div class="category-item">
-                            <a href="/vaccum-tube">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/bct-icon.png" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Blood Collection Tube</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="/urine-container">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/container-icon.png" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Container</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="/ria-vial">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/vial-icon.png" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Vials</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="/micro-pipette-tip">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/tip-icon.png" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Pipette Tips</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="/surgical-mask">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/mask-icon.png" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Disposable Surgical</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="/round-bandage">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/b&t-icon.png" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Bandages and Tape</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="#">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/baby-mom-care.svg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Baby & Mom Care</h4>
-                                        <p>08 Items</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="#">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/supplements.svg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Supplement</h4>
-                                        <p>14 Items</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="#">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/food-nutrition.svg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Food & Nutrition</h4>
-                                        <p>19 Items</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="#">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/medical-equipements.svg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Equipments</h4>
-                                        <p>24 Items</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="#">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/medical-supplies.svg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Medical Supplies</h4>
-                                        <p>09 Items</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="category-item">
-                            <a href="#">
-                                <div class="category-info">
-                                    <div class="icon">
-                                        <img src="images/icon/pet-care.svg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4>Pet Care</h4>
-                                        <p>16 Items</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <div class="product-card">
+          <div class="product-media">
+            <span class="product-tag">Travel</span>
+            <img src="https://images.pexels.com/photos/6847860/pexels-photo-6847860.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hand holding CLARO travel size lens cleaner spray bottle">
+          </div>
+          <div class="product-body">
+            <h4>CLARO Travel — 30ml</h4>
+            <span class="product-meta">SKU CLR-030 · TSA-friendly</span>
+            <div class="product-price">
+              <span class="price">$8.00</span>
+              <button class="add-btn" onclick="addToCart()">+</button>
             </div>
-            <!-- category area end-->
+          </div>
+        </div>
 
-
-            <!-- small banner -->
-            <!-- <div class="small-banner pb-100">
-                <div class="container wow fadeInUp" data-wow-delay=".25s">
-                    <div class="row g-4">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="banner-item">
-                                <img src="images/product/cotton-rolls.png" alt="">
-                                <div class="banner-content">
-                                    <p class="text-white">Roll</p>
-                                    <h3 class="text-white">Cotton <br> Roll</h3>
-                                    <a href="/cotton-rolls" class="text-white">View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="banner-item">
-                                <img src="images/product/hand-sanitizer.jpeg" alt="">
-                                <div class="banner-content">
-                                    <p class="text-white">Sanitizer</p>
-                                    <h3 class="text-white">Hand Sanitizer</h3>
-                                    <a class="text-white" href="/hand-sanitizer">View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="banner-item">
-                                <img src="images/product/alcohol-swab.png" alt="">
-                                <div class="banner-content">
-                                    <p class="text-white">Swab</p>
-                                    <h3 class="text-white">Alcohol Swab</h3>
-                                    <a class="text-white" href="/alcohol-swab">View</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- small banner end -->
-
-
-            <!-- trending item -->
-            <!-- <div class="product-area pb-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 wow fadeInDown" data-wow-delay=".25s">
-                        <div class="site-heading-inline">
-                            <h2 class="site-title">Trending Items</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-wrap wow fadeInUp" data-wow-delay=".25s">
-                    <div class="product-slider owl-carousel owl-theme">
-                        <div class="product-item">
-                            <div class="product-img">
-                               
-                                <a href="shop-single.html"><img src="images/product/01.png" alt=""></a>
-                                
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-img">
-                               
-                                <a href="shop-single.html"><img src="images/product/02.png" alt=""></a>
-                               
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-img">
-                              
-                                <a href="shop-single.html"><img src="images/product/03.png" alt=""></a>
-                               
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                               
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-img">
-                              
-                                <a href="shop-single.html"><img src="images/product/04.png" alt=""></a>
-                               
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-img">
-                                <a href="shop-single.html"><img src="images/product/05.png" alt=""></a>
-                                
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                               
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-img">
-                                <a href="shop-single.html"><img src="images/product/06.png" alt=""></a>
-                               
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="product-card">
+          <div class="product-media">
+            <span class="product-tag">Refill</span>
+            <img src="https://images.pexels.com/photos/6847823/pexels-photo-6847823.jpeg?auto=compress&cs=tinysrgb&w=600" alt="CLARO Pro 250ml refill bottle with reflection">
+          </div>
+          <div class="product-body">
+            <h4>CLARO Pro — 250ml Refill</h4>
+            <span class="product-meta">SKU CLR-250 · Studio &amp; optician use</span>
+            <div class="product-price">
+              <span class="price">$22.00</span>
+              <button class="add-btn" onclick="addToCart()">+</button>
             </div>
-        </div> -->
-            <!-- trending item end -->
+          </div>
+        </div>
 
-
-            <!-- feature area -->
-            <div class="feature-area pb-100">
-                <div class="container wow fadeInUp" data-wow-delay=".25s">
-                    <div class="feature-wrap">
-                        <div class="row g-0">
-                            <div class="col-12 col-md-6 col-lg-3">
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fal fa-truck"></i>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h4>Fast Delivery</h4>
-                                        <p>Also Maximum Quantity</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-3">
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fal fa-sync"></i>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h4>Free Sample</h4>
-                                        <p>Exclude Freight Charges</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-3">
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fal fa-wallet"></i>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h4>Safe Payment</h4>
-                                        <p>100% Secure Payment Through Bank</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-3">
-                                <div class="feature-item">
-                                    <div class="feature-icon">
-                                        <i class="fal fa-headset"></i>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h4>24/7 Support</h4>
-                                        <p>Feel Free To Contact Us</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="product-card">
+          <div class="product-media">
+            <span class="product-tag">New</span>
+            <img src="https://images.pexels.com/photos/2335052/pexels-photo-2335052.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Camera lens close up, compatible with CLARO Camera and Optics formula">
+          </div>
+          <div class="product-body">
+            <h4>CLARO Camera &amp; Optics — 60ml</h4>
+            <span class="product-meta">SKU CLR-CAM · Coated glass safe</span>
+            <div class="product-price">
+              <span class="price">$14.00</span>
+              <button class="add-btn" onclick="addToCart()">+</button>
             </div>
-            <!-- feature area end -->
+          </div>
+        </div>
 
+      </div>
+    </div>
+  </section>
 
-            <!-- popular item -->
-            <!-- <div class="product-area pb-100">
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-lg-9">
-                        <div class="row">
-                            <div class="col-12 wow fadeInDown" data-wow-delay=".25s">
-                                <div class="site-heading-inline">
-                                    <h2 class="site-title">Popular Items</h2>
-                                    <a href="#">All Products <i class="fas fa-angle-double-right"></i></a>
-                                </div>
-                                <div class="item-tab">
-                                    <ul class="nav nav-pills mt-40 mb-50" id="item-tab" role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="item-tab1" data-bs-toggle="pill" data-bs-target="#pill-item-tab1" type="button" role="tab" aria-controls="pill-item-tab1" aria-selected="true">Medicine</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="item-tab2" data-bs-toggle="pill" data-bs-target="#pill-item-tab2" type="button" role="tab" aria-controls="pill-item-tab2" aria-selected="false">Beauty Care</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="item-tab3" data-bs-toggle="pill" data-bs-target="#pill-item-tab3" type="button" role="tab" aria-controls="pill-item-tab3" aria-selected="false">Healthcare</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="item-tab4" data-bs-toggle="pill" data-bs-target="#pill-item-tab4" type="button" role="tab" aria-controls="pill-item-tab4" aria-selected="false">Baby & Mom Care</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="item-tab5" data-bs-toggle="pill" data-bs-target="#pill-item-tab5" type="button" role="tab" aria-controls="pill-item-tab5" aria-selected="false">Food & Nutrition</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="item-tab6" data-bs-toggle="pill" data-bs-target="#pill-item-tab6" type="button" role="tab" aria-controls="pill-item-tab6" aria-selected="false">Medical Equipments</button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content wow fadeInUp" data-wow-delay=".25s" id="item-tabContent">
-                            <div class="tab-pane show active" id="pill-item-tab1" role="tabpanel" aria-labelledby="item-tab1" tabindex="0">
-                                <div class="row g-3">
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type new">New</span>
-                                                <a href="shop-single.html"><img src="images/product/14.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type hot">Hot</span>
-                                                <a href="shop-single.html"><img src="images/product/07.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type oos">Out Of Stock</span>
-                                                <a href="shop-single.html"><img src="images/product/24.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type discount">10% Off</span>
-                                                <a href="shop-single.html"><img src="images/product/15.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <del>$250.00</del>
-                                                        <span>$190.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="pill-item-tab2" role="tabpanel" aria-labelledby="item-tab2" tabindex="0">
-                                <div class="row g-3">
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type new">New</span>
-                                                <a href="shop-single.html"><img src="images/product/10.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type hot">Hot</span>
-                                                <a href="shop-single.html"><img src="images/product/11.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type oos">Out Of Stock</span>
-                                                <a href="shop-single.html"><img src="images/product/12.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type discount">10% Off</span>
-                                                <a href="shop-single.html"><img src="images/product/13.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <del>$250.00</del>
-                                                        <span>$190.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="pill-item-tab3" role="tabpanel" aria-labelledby="item-tab3" tabindex="0">
-                                <div class="row g-3">
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type new">New</span>
-                                                <a href="shop-single.html"><img src="images/product/17.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type hot">Hot</span>
-                                                <a href="shop-single.html"><img src="images/product/18.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type oos">Out Of Stock</span>
-                                                <a href="shop-single.html"><img src="images/product/19.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type discount">10% Off</span>
-                                                <a href="shop-single.html"><img src="images/product/20.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <del>$250.00</del>
-                                                        <span>$190.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="pill-item-tab4" role="tabpanel" aria-labelledby="item-tab4" tabindex="0">
-                                <div class="row g-3">
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type new">New</span>
-                                                <a href="shop-single.html"><img src="images/product/22.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type hot">Hot</span>
-                                                <a href="shop-single.html"><img src="images/product/23.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type oos">Out Of Stock</span>
-                                                <a href="shop-single.html"><img src="images/product/24.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type discount">10% Off</span>
-                                                <a href="shop-single.html"><img src="images/product/25.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <del>$250.00</del>
-                                                        <span>$190.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="pill-item-tab5" role="tabpanel" aria-labelledby="item-tab5" tabindex="0">
-                                <div class="row g-3">
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type new">New</span>
-                                                <a href="shop-single.html"><img src="images/product/30.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type hot">Hot</span>
-                                                <a href="shop-single.html"><img src="images/product/31.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type oos">Out Of Stock</span>
-                                                <a href="shop-single.html"><img src="images/product/32.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type discount">10% Off</span>
-                                                <a href="shop-single.html"><img src="images/product/33.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <del>$250.00</del>
-                                                        <span>$190.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="pill-item-tab6" role="tabpanel" aria-labelledby="item-tab6" tabindex="0">
-                                <div class="row g-3">
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type new">New</span>
-                                                <a href="shop-single.html"><img src="images/product/34.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type hot">Hot</span>
-                                                <a href="shop-single.html"><img src="images/product/35.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type oos">Out Of Stock</span>
-                                                <a href="shop-single.html"><img src="images/product/36.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <span>$250.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 col-xl-3">
-                                        <div class="product-item">
-                                            <div class="product-img">
-                                                <span class="type discount">10% Off</span>
-                                                <a href="shop-single.html"><img src="images/product/37.png" alt=""></a>
-                                                <div class="product-action-wrap">
-                                                    <div class="product-action">
-                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-bs-placement="top" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Wishlist"><i class="far fa-heart"></i></a>
-                                                        <a href="#" data-bs-placement="top" data-tooltip="tooltip" title="Add To Compare"><i class="far fa-arrows-repeat"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <h3 class="product-title"><a href="shop-single.html">Surgical Face Mask</a></h3>
-                                                <div class="product-rate">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <div class="product-bottom">
-                                                    <div class="product-price">
-                                                        <del>$250.00</del>
-                                                        <span>$190.00</span>
-                                                    </div>
-                                                    <button type="button" class="product-cart-btn" data-bs-placement="left" data-tooltip="tooltip" title="Add To Cart">
-                                                        <i class="far fa-shopping-bag"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="product-banner wow fadeInRight" data-wow-delay=".25s">
-                            <a href="#">
-                                <img src="images/banner/product-banner.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-            <!-- popular item end -->
+  <!-- WIPE TEST (SIGNATURE INTERACTIVE) -->
+  <section class="wipe-section" id="wipe-test">
+    <div class="wrap wipe-grid">
+      <div class="wipe-copy">
+        <span class="eyebrow">The Wipe Test</span>
+        <h2>Drag the line. See the streak disappear.</h2>
+        <p>One pass of CLARO removes the oil and dust film that causes haze — no residue, no rainbow streaking under light.</p>
+        <ul class="wipe-steps">
+          <li><b>01</b> Left side: lens before cleaning</li>
+          <li><b>02</b> Right side: after one CLARO pass</li>
+          <li><b>03</b> Drag anywhere on the image to compare</li>
+        </ul>
+      </div>
+      <div class="wipe-tester" id="wipeTester">
+        <div class="layer smudged">
+          <img src="https://images.pexels.com/photos/13430491/pexels-photo-13430491.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Eyeglasses lens before cleaning, hazy">
+        </div>
+        <div class="layer clear" id="clearLayer">
+          <img src="https://images.pexels.com/photos/13430491/pexels-photo-13430491.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Eyeglasses lens after cleaning with CLARO, crystal clear">
+        </div>
+        <span class="wipe-label left">Smudged</span>
+        <span class="wipe-label right">Clean</span>
+        <div class="wipe-handle" id="wipeHandle">
+          <div class="grip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M8 8L4 12L8 16M16 8L20 12L16 16" stroke="#132420" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- HOW IT WORKS -->
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Three steps, one clear view</h2>
+        <p>The order matters — here's the routine we test every formula against.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <span class="step-num">01 · Spritz</span>
+          <h3>Two sprays per lens</h3>
+          <p>Hold 6 inches away and mist both sides of the lens or screen evenly. A little goes further than you'd think.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-num">02 · Wipe</span>
+          <h3>Fold your microfiber cloth</h3>
+          <p>Use a clean, dry section of cloth and wipe in one direction, working from the frame outward.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-num">03 · Shine</span>
+          <h3>Air-dry in 3 seconds</h3>
+          <p>No haze, no residue ring. The formula flashes off without needing a second pass.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <!-- big banner -->
-            <!-- <div class="big-banner">
-            <div class="container wow fadeInUp" data-wow-delay=".25s">
-                <div class="banner-wrap" style="background-image: url(images/banner/big-banner.jpg);">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="banner-content">
-                                <div class="banner-info">
-                                    <h6>Mega Collections</h6>
-                                    <h2>Huge Sale Up To <span>40%</span> Off</h2>
-                                    <p>at our outlet stores</p>
-                                </div>
-                                <a href="#" class="theme-btn">Shop Now<i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-            <!-- big banner end -->
+  <!-- FORMULA -->
+  <section class="formula" id="formula">
+    <div class="wrap formula-grid">
+      <div class="formula-copy">
+        <span class="eyebrow">What's Inside</span>
+        <h2>Plant-derived, lab-tested, coating-safe.</h2>
+        <p>CLARO replaces alcohol and ammonia with a citrus-derived surfactant base — tough enough on oil and fingerprints, gentle enough for anti-reflective and blue-light coatings.</p>
+        <table class="spec-table">
+          <tr><td>Active base</td><td>Citrus-derived surfactant</td></tr>
+          <tr><td>pH level</td><td>7.0 neutral</td></tr>
+          <tr><td>Alcohol content</td><td>0%</td></tr>
+          <tr><td>Ammonia content</td><td>0%</td></tr>
+          <tr><td>Dry time</td><td>~3 seconds</td></tr>
+          <tr><td>Coating compatibility</td><td>AR / blue-light / polarized</td></tr>
+        </table>
+      </div>
+      <div class="formula-media">
+        <img src="https://images.pexels.com/photos/6767793/pexels-photo-6767793.jpeg?auto=compress&cs=tinysrgb&w=900" alt="CLARO spray bottle formula shot with botanical accents">
+      </div>
+    </div>
+  </section>
 
+  <!-- COMPARISON -->
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How CLARO compares</h2>
+        <p>Not every "lens cleaner" is built for coated glass. Here's the difference.</p>
+      </div>
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Formula</th>
+            <th class="claro-col">CLARO</th>
+            <th>Alcohol Spray</th>
+            <th>Ammonia Glass Cleaner</th>
+            <th>Dry Wipe Only</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Safe on AR coating</td>
+            <td class="claro-col yes">Yes</td>
+            <td class="no">No</td>
+            <td class="no">No</td>
+            <td class="yes">Yes</td>
+          </tr>
+          <tr>
+            <td>Streak-free finish</td>
+            <td class="claro-col yes">Yes</td>
+            <td>Sometimes</td>
+            <td class="no">No</td>
+            <td class="no">No</td>
+          </tr>
+          <tr>
+            <td>Anti-static residue</td>
+            <td class="claro-col yes">Yes</td>
+            <td class="no">No</td>
+            <td class="no">No</td>
+            <td class="no">No</td>
+          </tr>
+          <tr>
+            <td>Dry time</td>
+            <td class="claro-col">3 sec</td>
+            <td>5 sec</td>
+            <td>8 sec</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
 
+  <!-- TESTIMONIALS -->
+  <section id="reviews">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Trusted behind the counter</h2>
+        <p>From optical shops to camera bags — what people notice after the first bottle.</p>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <span class="stars">★★★★★</span>
+          <p>"We switched our entire fitting counter to CLARO. It's the only spray our lab lets us use on AR-coated demo frames."</p>
+          <div class="testi-who"><span>Priya M.</span><span>Licensed Optician</span></div>
+        </div>
+        <div class="testi-card">
+          <span class="stars">★★★★★</span>
+          <p>"Dries fast enough to use between shots on set. No streaks under studio lighting, which is the real test."</p>
+          <div class="testi-who"><span>Daniel R.</span><span>Wedding Photographer</span></div>
+        </div>
+        <div class="testi-card">
+          <span class="stars">★★★★★</span>
+          <p>"I keep the travel bottle in every bag I own. My glasses have never stayed this clean, this long."</p>
+          <div class="testi-who"><span>Wren T.</span><span>Everyday Wearer</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- SUBSCRIBE -->
+  <section class="subscribe">
+    <div class="wrap subscribe-inner">
+      <div>
+        <h2>Never run dry again.</h2>
+        <p>Subscribe to auto-refills and save 20% on every bottle.</p>
+      </div>
+      <a href="#shop" class="btn" style="background:var(--ink);color:var(--zing);">Start a Subscription</a>
+    </div>
+  </section>
 
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="wrap">
+      <h2>Get care tips &amp; early access</h2>
+      <p>One email a month — lens care guides, new formulas, and subscriber-only pricing.</p>
+      <form class="newsletter-form" onsubmit="return handleSubscribe(event)">
+        <input type="email" placeholder="you@email.com" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
 
-
-
-
-
-
-
-
-
-            <!-- about area -->
-            <div class="about-area py-100">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="about-left wow fadeInLeft" data-wow-delay=".25s">
-                                <div class="about-img">
-                                    <div class="row">
-                                        <div class="col-7">
-                                            <img class="img-1" src="images/about/about-us-1.jpg" alt="">
-                                        </div>
-                                        <div class="col-5 align-self-end">
-                                            <img class="img-2" src="images/about/about-us-2.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="about-experience">
-                                    <div class="about-experience-icon">
-                                        <img src="images/icon/experience.svg" alt="">
-                                    </div>
-                                    <!-- <b>30 Years Of <br> Experience</b> -->
-                                </div>
-                                <div class="about-shape">
-                                    <img src="images/shape/01.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="about-right wow fadeInRight" data-wow-delay=".25s">
-                                <div class="site-heading mb-3">
-                                    <span class="site-title-tagline justify-content-start">
-                                        <i class="flaticon-drive"></i> About Us
-                                    </span>
-                                    <!-- <h2 class="site-title">
-                                    We Provide Best and Original <span>Medical</span> Product For You
-                                </h2> -->
-                                </div>
-                                <p>
-                                    At Nijivsha Surgical Export International, we specialize in the manufacturing,
-                                    trading, and export of high-quality surgical consumables, laboratory disposables,
-                                    and chemical- based laboratory products. With a strong commitment to international
-                                    quality standards, we ensure that every product we deliver meets the stringent
-                                    requirements of the healthcare and laboratory industries worldwide.
-                                </p>
-
-                                <a href="/about-us" class="theme-btn mt-4">Learn More<i
-                                        class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- about area end -->
-
-
-            <!-- choose-area -->
-            <div class="choose-area bg py-100">
-                <div class="container">
-                    <div class="row g-4 align-items-center wow fadeInDown" data-wow-delay=".25s">
-                        <div class="col-lg-4">
-                            <div class="choose-img">
-                                <img src="images/choose/wwd.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-8">
-                            <h2 class="site-title-tagline">What We Offer </h2>
-                            <p>There are many variations of passages available but the majority have suffered you are
-                                going
-                                to use a passage you need to be sure alteration in some form by injected humour
-                                randomised
-                                words even slightly believable.</p>
-                        </div>
-                    </div>
-                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
-                        <div class="row g-4">
-                            <div class="col-lg-4">
-                                <div class="choose-item">
-                                    <div class="choose-icon">
-                                        <img src="images/icon/warranty.svg" alt="">
-                                    </div>
-                                    <div class="choose-info">
-                                        <h4>Customized Packaging Solutions</h4>
-                                        <p>Tailored to match your brand and shipment needs. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="choose-item">
-                                    <div class="choose-icon">
-                                        <img src="images/icon/price.svg" alt="">
-                                    </div>
-                                    <div class="choose-info">
-                                        <h4>Certified Quality Products </h4>
-                                        <p>All products meet or exceed international standards.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="choose-item">
-                                    <div class="choose-icon">
-                                        <img src="images/icon/delivery.svg" alt="">
-                                    </div>
-                                    <div class="choose-info">
-                                        <h4>Fast & Reliable Export Services </h4>
-                                        <p>Timely global delivery to keep your supply chain running smoothly. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-
-                                <div class="choose-item">
-                                    <div class="choose-icon">
-                                        <img src="images/icon/delivery.svg" alt="">
-                                    </div>
-                                    <div class="choose-info">
-                                        <h4>Flexible Export Options </h4>
-                                        <p>Designed to adapt to your order volume and market requirements. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="choose-item">
-                                    <div class="choose-icon">
-                                        <img src="images/icon/delivery.svg" alt="">
-                                    </div>
-                                    <div class="choose-info">
-                                        <h4>Dedicated Client Support </h4>
-                                        <p>Personalized assistance from order placement to delivery </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- choose-area end-->
-            <!-- newsletter area -->
-            <!-- <div class="newsletter-area pb-100">
-            <div class="container wow fadeInUp" data-wow-delay=".25s">
-                <div class="newsletter-wrap">
-                    <div class="row">
-                        <div class="col-lg-6 mx-auto">
-                            <div class="newsletter-content">
-                                <h3>Get <span>6%</span> Off On Your First Order <br>(EXW Value)</h3>
-                               
-                                <div class="subscribe-form">
-                                    <form action="#">
-                                        <input type="email" class="form-control" placeholder="Your Email Address">
-                                        <button class="theme-btn" type="submit">
-                                            Subscribe <i class="far fa-paper-plane"></i>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-            <!-- newsletter area end -->
-
-            <!-- gallery-area -->
-            <!-- <div class="gallery-area py-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 mx-auto">
-                        <div class="site-heading text-center">
-                            <span class="site-title-tagline">Our Gallery</span>
-                            <h2 class="site-title">Let's Check Our Photo <span>Gallery</span></h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-4 popup-gallery">
-                    <div class="col-md-12 col-lg-6">
-                        <div class="gallery-item gallery-btn-active wow fadeInUp" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="images/gallery/01.jpg" alt="">
-                                <a class="popup-img gallery-link" href="images/gallery/01.jpg"><i class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="images/gallery/02.jpg" alt="">
-                                <a class="popup-img gallery-link" href="images/gallery/02.jpg"><i class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="gallery-item wow fadeInUp" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="images/gallery/03.jpg" alt="">
-                                <a class="popup-img gallery-link" href="images/gallery/03.jpg"><i class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="images/gallery/04.jpg" alt="">
-                                <a class="popup-img gallery-link" href="images/gallery/04.jpg"><i class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="gallery-item wow fadeInUp" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="images/gallery/05.jpg" alt="">
-                                <a class="popup-img gallery-link" href="images/gallery/05.jpg"><i class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-lg-6">
-                        <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
-                            <div class="gallery-img">
-                                <img src="images/gallery/06.jpg" alt="">
-                                <a class="popup-img gallery-link" href="images/gallery/06.jpg"><i class="fal fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-            <!-- gallery-area end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </main>
-
+</main>
 
 
 
